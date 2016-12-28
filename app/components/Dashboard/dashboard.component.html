@@ -1,0 +1,16 @@
+<div id="content">
+    <div class="row">
+        <div class="row text-center">
+            <h1>{{ title || "nada" }}</h1>
+        </div>
+        <div class="col-xs-8 col-xs-offset-2">
+            <form (submit)="goToDetail()" class="input-group">
+                <input type="text" class="form-control" placeholder="Search your city weather" [(ngModel)]="place">
+                <span class="input-group-btn">
+                    <button class="btn btn-primary" type="submit">Search</button>
+                </span>
+            </form>
+        </div>
+    </div>
+</div>
+

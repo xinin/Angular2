@@ -1,0 +1,27 @@
+#content {
+    background: url(assets/images/weather-hero.jpg) center center no-repeat fixed;
+    background-size: cover;
+    max-width: 100%;
+    max-height: inherit;
+    width: auto;
+    height: 100%;
+
+    min-height: 100%; /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one :-)       */
+
+    display: flex;
+    align-items: center;
+
+}
+
+h1 {
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 62px;
+    font-weight: 800;
+    line-height: 72px;
+    margin: 0 0 24px;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}

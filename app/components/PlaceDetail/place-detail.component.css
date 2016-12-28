@@ -1,0 +1,33 @@
+#content {
+    background: rgba(0, 146, 246, 0.16);
+    height: auto;
+    width: 100%;
+    min-height: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    /*text-align: center;*/
+    color: #3b3b3b;
+}
+
+.weather_img{
+    width: 100%;
+}
+
+.termometer{
+    height: 50px;
+}
+
+.statistics{
+    color:#3b3b3b;
+}
+
+.city_div{
+ border-bottom: 5px solid #0092f6;
+}
+
+.remove{
+    color: red;
+    margin-top:20px;
+    font-size:20px;
+    cursor: pointer;
+}
